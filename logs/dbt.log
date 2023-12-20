@@ -1,0 +1,28 @@
+[0m18:10:16.246113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1E16BDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1E490DA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1E490D810>]}
+
+
+============================== 18:10:16.260114 | e83819d9-cc40-42f9-9f39-b9a578d751c3 ==============================
+[0m18:10:16.260114 [info ] [MainThread]: Running with dbt=1.7.4
+[0m18:10:16.263116 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\kanyd\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init traffic_dwh', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:10:16.268114 [debug] [MainThread]: Starter project path: C:\Users\kanyd\OneDrive\Desktop\week-2\traffic\w2\lib\site-packages\dbt\include\starter_project
+[0m18:10:16.323537 [info ] [MainThread]: 
+Your new dbt project "traffic_dwh" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:10:16.329692 [info ] [MainThread]: Setting up your profile.
+[0m18:16:28.786205 [info ] [MainThread]: Profile traffic_dwh written to C:\Users\kanyd\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:16:28.805055 [debug] [MainThread]: Command `dbt init` succeeded at 18:16:28.803058 after 372.58 seconds
+[0m18:16:28.814065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1E16BDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1DE8AC7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1E490D840>]}
+[0m18:16:28.819365 [debug] [MainThread]: Flushing usage events
